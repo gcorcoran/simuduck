@@ -2,7 +2,7 @@ package version5;
 
 public class RubberDuck implements Quacker {
 	
-    QuackBehavior quackBehavior;
+    private QuackBehavior quackBehavior;
     
 	public RubberDuck(QuackBehavior qb) {
 		
